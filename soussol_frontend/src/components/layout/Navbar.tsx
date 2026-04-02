@@ -215,12 +215,6 @@ export default function Navbar() {
           <Link href="/reservations" className={linkClass("/reservations")}>
             Reservations
           </Link>
-          <Link
-            href="/reservations"
-            className="border border-ss-gold text-ss-gold text-xs tracking-[0.3em] uppercase px-6 py-3.5 text-center hover:bg-ss-gold hover:text-ss-black transition-all duration-300"
-          >
-            Reserve a Table
-          </Link>
         </div>
       )}
     </nav>
